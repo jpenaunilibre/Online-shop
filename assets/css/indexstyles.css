@@ -1,3 +1,4 @@
+ /* footer styles */
 footer {
     background-color: #000;
     color: #fff;
@@ -38,4 +39,15 @@ footer hr {
 footer .text-center {
     text-align: center;
     margin-top: 20px;
+}
+/* carousel styles */
+img{
+    width: 800px;
+    height: 1000px;
+    object-fit: contain;
+}
+
+#carouselExampleDark{
+    max-width: 800px;
+    margin: 0 auto;
 }
