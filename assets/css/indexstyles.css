@@ -41,13 +41,11 @@ footer .text-center {
     margin-top: 20px;
 }
 /* carousel styles */
-img{
-    width: 800px;
-    height: 1000px;
-    object-fit: contain;
+.imagen-carousel {
+    width: auto; /* Cambia el tamaño de la imagen al 80% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-#carouselExampleDark{
-    max-width: 800px;
-    margin: 0 auto;
-}
+  
+
