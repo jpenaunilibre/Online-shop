@@ -41,11 +41,36 @@ footer .text-center {
     margin-top: 20px;
 }
 /* carousel styles */
-.imagen-carousel {
-    width: auto; /* Cambia el tamaño de la imagen al 80% del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+
+#carouselExampleDark{
+    margin: auto;
+    max-height: 500px !important;
+    overflow: hidden;
+    height: 500px !important;
 }
 
-  
+#carouselExampleDark .carousel-item img{
+    width: 500px !important;
+    height: 500px !important;
+    margin: 0 auto !important;
+    object-fit: cover !important;
+}
 
+#carouselExampleDark {
+    transform: scale(0.9); 
+    transform-origin: center; 
+}
+
+#carouselExampleDark .carousel-caption {
+    bottom: 15px !important;
+    position: absolute !important;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    width: 90% !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center !important;
+    color: aliceblue;
+    transform: translateX(-50%); /* Compensa el desplazamiento para centrar */
+    left: 50%; /* Centra horizontalmente */
+
+}
